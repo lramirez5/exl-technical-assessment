@@ -25,9 +25,13 @@ mvn clean package
 ```
 
 ## Running the project
-Development and testing was completed in Windows and I've included **EXLassessment.bat**. Opening a command prompt window as administrator and executing the batch will launch:
+Development and testing was completed in Windows and I've included **EXLassessment.bat**. Opening a command prompt window as administrator and executing the batch file will launch:
  - MySQL service
+   - The service can also be started by opening the Windows Services app and starting MySQL from there
  - Spring backend
+   - The executable employee-search-backend-1.0.0.jar file is located in the employee-search-backend/target folder. To run this without the batch file, navigate to the folder and run: ```java -jar employee-search-backend-1.0.0.jar```
  - React frontend
+   - To run this without the batch file, navigate to employee-search-frontend folder and run: ```npm start```
+
 
 On success, the application can be viewed at [http://localhost:3000](http://localhost:3000)
